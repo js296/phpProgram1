@@ -1,7 +1,15 @@
 <?php
 
-	$var = "Hello I'm a variable";
-	echo $var;
+  $obj = new main;
+
+  class main{
+
+    public function __construct(){
+
+      echo 'hello world!';
+    }
+
+  }
 
 ?>
 
